@@ -1,8 +1,6 @@
 # Matching Tile Game
 
-Caleb Clough
-
-11-26-17
+Created by: Caleb Clough
 
 ## Description:
 
