@@ -1,0 +1,179 @@
+/*This contains the base formatting for the html elements. Is modified using
+javascript according to game logic*/
+html{
+  background-color: grey;
+}
+
+h1{
+  text-align: center;
+  vertical-align:middle;
+  font-size: 30px;
+  color: white;
+}
+
+h2{
+  font-size: 20px;
+  color: white;
+  vertical-align:middle;
+  line-height: 17px;
+}
+
+h2.black{
+  font-size: 20px;
+  color: black;
+  vertical-align:middle;
+  line-height: 20px;
+  text-align: center;
+}
+
+h3{
+  font-size: 16px;
+  color: black;
+  vertical-align:middle;
+  line-height: 15px;
+  text-indent: -20px;
+  text-align: center;
+}
+
+h4{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+}
+
+h5{
+  font-size: 16px;
+  color: black;
+  vertical-align:middle;
+  line-height: 15px;
+  text-align: center;
+}
+
+.row{
+  border: 0px solid red;
+  background-color: red;
+  display: flex;
+  margin: auto;
+}
+
+.tile{
+  border: 20px;
+  background-color: yellow;
+  height: 150px;
+  width: 150px;
+  border: 10px solid grey;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  vertical-align:middle;
+  line-height: 80px;
+}
+
+#resetButton{
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#winResetButton{
+  background-color: grey;
+  width: 50%;
+  transform: translateX(50%);
+  display: flex;
+  position: relative;
+  bottom: 10px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+#blur{
+  background-color: rgba(255,255,255,0.8);
+  position: absolute;
+  border: none;
+  padding: none;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 875px;
+  z-index: 100;
+}
+
+#winPop{
+  background-color:white;
+  border: none;
+  padding: none;
+  width: 50%;
+  position: absolute;
+  border: none;
+  top: 100px;
+  padding: none;
+  z-index: 101;
+  transform: translateX(50%);
+}
+
+#title{
+  background-color: black;
+  height: 40px;
+}
+
+#stars{
+  background-color: grey;
+  height: 54px;
+  width: 50%;
+  min-width: 250px;
+  display: flex;
+}
+
+#button{
+  background-color: grey;
+  height: 34px;
+  width: 50%;
+  display: flex;
+  position: relative;
+  top: 10px;
+}
+
+#movesTimer{
+  background-color: grey;
+  height: 54px;
+  display: flex;
+}
+
+#starsButton{
+  background-color: grey;
+  height: 54px;
+  display: flex;
+}
+
+#moves{
+  background-color: grey;
+  width: 50%;
+  display: flex;
+  min-width: 250px;
+}
+
+#timer{
+  background-color: grey;
+  width: 50%;
+  display: flex;
+}
+
+#startPauseRestart{
+  background-color: green;
+  height: 30px;
+  display: flex;
+  margin: auto;
+}
+
+#centerer{
+  max-width: 680px;
+  margin:auto;
+}

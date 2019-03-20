@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- References css file -->
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <meta charset="UTF-8">
+    <title>
+        Matching Tile Game
+    </title>
+  </head>
+  <body>
+    <div id="title"><h1> Matching Tile Game </h1></div>
+    <!-- The following contains the sections representing game stats and
+    the reset button-->
+    <div id="starsButton">
+      <div id="stars">
+        <h2> Stars: </h2>
+        <img src="Star.bmp" id="star1">
+        <img src="Star.bmp" id="star2">
+        <img src="Star.bmp" id="star3">
+      </div>
+      <div id="button">
+        <button id="resetButton">Reset</button>
+      </div>
+    </div>
+    <div id="movesTimer">
+      <div id="moves">
+        <h2> Moves: &nbsp;</h2>
+        <h2 id="moveCounter"> 0 </h2>
+      </div>
+      <div id="timer">
+        <h2> Time: &nbsp;</h2>
+        <h2 id="timeCounter"> 0 </h2>
+      </div>
+    </div>
+    <!-- The following contains the divs representing the tiles and the divs
+     necessary to orient them-->
+    <div id="centerer">
+      <div class="row">
+        <div class="tile" id="tile0"></div>
+        <div class="tile" id="tile1"></div>
+        <div class="tile" id="tile2"></div>
+        <div class="tile" id="tile3"></div>
+      </div>
+      <div class="row">
+        <div class="tile" id="tile4"></div>
+        <div class="tile" id="tile5"></div>
+        <div class="tile" id="tile6"></div>
+        <div class="tile" id="tile7"></div>
+      </div>
+      <div class="row">
+        <div class="tile" id="tile8"></div>
+        <div class="tile" id="tile9"></div>
+        <div class="tile" id="tile10"></div>
+        <div class="tile" id="tile11"></div>
+      </div>
+      <div class="row">
+        <div class="tile" id="tile12"></div>
+        <div class="tile" id="tile13"></div>
+        <div class="tile" id="tile14"></div>
+        <div class="tile" id="tile15"></div>
+      </div>
+    </div>
+  </body>
+  <!-- References js file and jQuery libray -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="Logic.js"></script>
+</html>
